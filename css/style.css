@@ -1,0 +1,144 @@
+/*+ DE UMA PÁGINA*/
+.txt-grande{
+    width: 100%;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    margin-top: 5px;
+    border-radius: 5px;
+    border: 1px solid lightgray;  
+}
+
+.fs-radio{
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+.p-radio{
+    padding: 0px;
+    margin: 0px;
+    margin-bottom: 8px;
+}
+
+.btn{
+    width: 100%;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    background-color: #4caf50;
+    color: white;
+    border-radius: 5px;
+    border: 1px solid #4caf50;
+}
+
+.btn:hover{
+    background-color: #449b47;
+    cursor: pointer;
+}
+
+.grid-container{
+    display: inline-grid;
+    grid-template-columns: auto auto;
+    grid-column-gap: 120px;
+    margin-top: 50px;
+}
+
+.grid-item{
+    font-size: 12px;
+}
+
+.grid-item img{
+   
+   width: 50%;
+}
+
+/*HEADER*/
+
+nav{
+    background-color: #333333;
+    height: 50px;
+    
+}
+
+#menu{
+    padding-top: 15px;
+    list-style: none;
+    padding-left: 0px;
+}
+
+#menu li{
+    display: inline;
+    padding: 15px 16px;
+    
+}
+
+#menu a{
+    text-decoration: none;
+    color: white;
+}
+
+#menu li:hover{
+    background-color: red;
+}
+
+#link-sobre{
+    float: right;
+    margin-top: -15px;
+}
+
+#submenu{
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+header{
+    background-color: green;
+}
+
+
+/*HOME - EVENTOS*/
+
+#pai-container{
+    text-align: center;
+}
+
+#eventos{
+    text-align: center;
+}
+
+#img-seja_raro{
+    margin-top: 20px;
+    border-radius: 50%;
+}
+
+#eventos figcaption{
+    border: 1px dotted blue;
+}
+
+/*HOME - INOVAÇÃO*/
+
+#inovacao{
+    margin-top: 20px;
+    text-align: center;
+}
+
+/*CONTATO*/
+
+#form-ctt li{
+    margin-bottom: 15px;
+}
+
+
+#ctt-btn-enviar{
+    margin-top: 25px;
+}
+
+/*ENTRAR*/
+
+.fs-entrar{
+    background-color: rgb(245, 239, 239);
+    border: 1px solid rgb(245, 239, 239);
+    border-radius: 5px;
+    margin-bottom: 25px;
+}
